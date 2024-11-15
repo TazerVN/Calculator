@@ -35,13 +35,14 @@ button.number{
 }
 
 div.instructor{
-    width: 440px;
+    width: 420px;
     height: 100px;
-    background-color: darksalmon;
+    background-color: azure;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px;
+    flex-direction: column;
+    align-items: start;
+    padding: 24px;
+    margin: 16px;
 }
 
 h2{
@@ -49,3 +50,27 @@ h2{
     margin-right: 5px;
 }
 
+.instructor div{
+    width: 200px;
+    height: auto;
+}
+
+
+div.interface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    background-color: tan;
+    margin: 16px;
+}
+
+button{
+    background-color: floralwhite;
+}
+
+div.previous{
+    color: #bc8f8f50;
+    width: 400px;
+    height: auto;
+}
